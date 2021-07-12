@@ -1,0 +1,64 @@
+.feynman__link {
+  text-decoration: none;
+  color: #2f80ed;
+
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+
+  position: absolute;
+  right: 48px;
+  top: 50%;
+}
+
+.feynman__link::after {
+  content: ' →';
+}
+
+.feynman__link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.footer__link:hover {
+
+  color: #2f80ed;
+}
+
+
+
+.logo {}
+
+/*не знаю что задать, размеры отличаются, задал лого img чтобы был alt*/
+
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+
+
+
+
+
+
+
+
+/* и элемента с модификатором вида ключ-значение */
